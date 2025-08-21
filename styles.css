@@ -131,8 +131,8 @@ p{
 /* Image slots */
 .slot{
   aspect-ratio: 4/3;
-  background:#f7f6f3;
-  border:1px solid rgba(0,0,0,0.12);
+  /* background:#f7f6f3; */
+  /* border:1px solid rgba(0,0,0,0.12); */
   position:relative;
   overflow:hidden;
 }
@@ -175,7 +175,7 @@ p{
 }
 .card{
   border:1px solid rgba(0,0,0,0.12);
-  background:#f7f6f3;
+  /* background:#f7f6f3; */
   border-radius:8px;
   overflow:hidden;
   display:flex;
@@ -183,7 +183,7 @@ p{
 }
 .card-image.slot{
   aspect-ratio: 4/3;
-  background:#f7f6f3;
+  /* background:#f7f6f3; */
   border-bottom:1px solid rgba(0,0,0,0.12);
 }
 .card-body{
