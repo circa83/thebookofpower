@@ -239,7 +239,7 @@ p{
 
 /* Footer */
 footer{
-  padding:100px 0;
+  padding:10px 0;
   color:var(--muted);
   font-size:14px;
   text-align:center;
@@ -273,9 +273,15 @@ footer .container{
 .footer-image {
   display: flex;
   justify-content: center;
-  margin-bottom: 24px;
+  margin-bottom: 5px;
 }
 
+@media (max-width: 600px) {
+  .footer-image img {
+    width: 200px; /* adjust size for smaller screens */
+    height: 200px;
+  }
+}
 .footer-image img {
   width: 300px;     /* adjust size to match card tiles */
   height: 300px;
