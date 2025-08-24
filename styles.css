@@ -24,7 +24,7 @@ a{ color:inherit; text-decoration:none }
 
 /* Header / Hero */
 header{
-  padding:120px 0;
+  padding:20px 0;
   border-bottom:1px solid rgba(0,0,0,0.08);
 }
 .hero-feature{
@@ -204,6 +204,8 @@ p{
 }
 
 
+
+
 /* Contact & Waitlist */
 .signup{
   margin-top:24px;
@@ -268,7 +270,17 @@ footer .container{
   height:28px;
   fill:var(--ink);
 }
+.footer-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
 
+.footer-image img {
+  width: 300px;     /* adjust size to match card tiles */
+  height: 300px;
+  object-fit: cover;
+}
 
 /* Utility (screen-reader only) */
 .sr-only{
