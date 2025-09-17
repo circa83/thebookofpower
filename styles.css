@@ -69,6 +69,7 @@ body{
   padding: 20px;
   box-shadow: 0 22px 60px rgba(0,0,0,.45);
   text-align: center;
+  margin: 50px auto 0;
 }
 .cta-title{
   color: var(--ink);
